@@ -1,0 +1,6 @@
+framework module DZMacroAndCategoryModule {
+  umbrella header "DZMacroAndCategoryModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

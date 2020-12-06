@@ -1,0 +1,27 @@
+PODS:
+  - DZMacroAndCategoryModule (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DZMacroAndCategoryModule (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZMacroAndCategoryModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZMacroAndCategoryModule: 8febae24bf5fb4a63bcbbecf78bb366b9253e724
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 9ddfcf851f99e0be2e75f26c2fd6a03be44f078f
+
+COCOAPODS: 1.8.4
